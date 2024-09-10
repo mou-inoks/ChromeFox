@@ -4,8 +4,6 @@
 ![Preview](https://typeling1578.github.io/MaterialFox-Plus/MaterialFox-Plus.png)
 This theme is powered by blood, sweat, and coffee. If you like it, please consider helping out to support its continued development.
 
-[![Buy fork source a coffee](https://typeling1578.github.io/MaterialFox-Plus/68747470733a2f2f73766773686172652e636f6d2f692f3859642e737667.svg)](https://www.buymeacoffee.com/n4ho5QX2l)
-
 ## What this does
 Inspired by Google's Material Design and their latest Google Chrome UI, this theme turns your Firefox into a Material-styled web browser. The aim was to style the browser as closely as possible to Google Chrome, where practical.
 
@@ -38,4 +36,4 @@ Replicate Chrome's "Not Secure" text on HTTP:
 
 ## Thanks to the repo of muckSponge for the base 
 
-link:  [text](https://github.com/muckSponge/MaterialFox)
+link:  [MaterialFox](https://github.com/muckSponge/MaterialFox)
