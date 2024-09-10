@@ -8,6 +8,12 @@
 	#TabsToolbar
 	{
 		-moz-appearance: none !important;
+		padding-left: 10px !important;
+		padding-right: 12px;
+	}
+	
+	#titlebar-buttonbox-container {
+		margin-left: 8px; /* Adds space between the tabs and the buttons */
 	}
 	
 	:root:-moz-any([inFullscreen], [tabsintitlebar]):not([privatebrowsingmode=temporary]) #TabsToolbar:not(:-moz-lwtheme)
@@ -16,11 +22,13 @@
 		color: #606367 !important;
 		--toolbarbutton-hover-background: #cbced2 !important;
 		--toolbarbutton-active-background: #bec0c5 !important;
+		padding-left: 10px !important;
 	}
 	
 	:root:-moz-any([inFullscreen], [tabsintitlebar]):not([privatebrowsingmode=temporary]) #TabsToolbar:not(:-moz-lwtheme):-moz-window-inactive
 	{
 		background-color: #e7eaed !important;
+		padding-left: 10px !important;
 	}
 	
 	:-moz-any(.titlebar-placeholder, .titlebar-spacer)[type=pre-tabs]
@@ -108,6 +116,13 @@
 	background: 0 !important;
 	border: 0 !important;
 	padding: 0 !important;
+	margin-top: 2px;
+}
+.tabbrowser-tab:first-of-type {
+    padding-left: 8px !important;  /* Adjust this value for desired spacing */
+}
+#tabbrowser-tabs > .tabbrowser-tab:first-of-type {
+    margin-left: 8px !important; /* Adds left margin to the first tab only */
 }
 
 .tabbrowser-tab[visuallyselected]
