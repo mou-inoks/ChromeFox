@@ -1,0 +1,9 @@
+#navigator-toolbox toolbar#PersonalToolbar
+{
+	background-image: unset !important;
+}
+
+#navigator-toolbox toolbarbutton.bookmark-item:not(.subviewbutton)
+{
+	padding: 6px !important;
+}
