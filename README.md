@@ -26,6 +26,8 @@ Replicate Chrome behaviour for clipped tabs:
 Replicate Chrome's "Not Secure" text on HTTP:
 * [about:config] Set ```security.insecure_connection_text.enabled``` to ```true```.
 
+* Add this firefox theme to have the exact sames color of the previous chrome [Firefox theme](https://addons.mozilla.org/en-US/firefox/addon/default-compact-dark-theme/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
+
 ## Please note
 * Windows 7 is no longer supported.
 * Linux is no longer officially supported but you can give it a try – if you'd like to work on it feel free to make a PR.
